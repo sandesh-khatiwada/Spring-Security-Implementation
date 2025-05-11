@@ -12,8 +12,6 @@ public class ExampleController {
         return "Welcome "+authentication.getName();
     }
 
-
-
     @GetMapping("/test")
     public String test(){
         return "Test";
